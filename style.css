@@ -1,0 +1,125 @@
+/* CSS general for create my page */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.list-item{
+    text-transform: uppercase;
+}
+
+li :hover{
+    color: rgb(0, 173, 0);
+}
+
+a:active, li::before{
+    color: aqua;
+}
+
+body{
+    background: url("https://cdn.discordapp.com/attachments/318828901931548682/813705798257082419/feather-4431599_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: rgb(199, 194, 194);
+    /* first things for get a footer at buttom */
+    display: flex;
+    flex-direction: column;
+}
+
+.contenu{
+    /* seccond  things for get a footer at buttom */
+    flex: 1 0 auto;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 30px;
+}
+
+
+/* CSS for my nav-bar */
+
+.nav-list{
+    padding:1rem 0 ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(25, 44, 30);
+}
+
+.nav-item{
+    margin-right: 2rem;
+    font-weight: normal;
+}
+.nav-list, a {
+    color: whitesmoke;
+    letter-spacing: 1.2px;
+}
+
+.nav-list .first-item{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+
+/* dropdown for my navbar */
+.dropbtn {
+    background-color: #2aa754c7;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 145px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    right: 0;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    
+  }
+
+/* footer */
+  footer{
+      /* flex-shrink it is a security */
+    flex-shrink: 0;
+    background-color: rgb(25, 44, 30);
+    color: whitesmoke;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
