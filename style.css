@@ -149,3 +149,7 @@ footer{
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
+.jumbotron{
+  background: url("https://cdn.discordapp.com/attachments/318828901931548682/813705816455643166/purple-690724_1920.jpg");
+}
