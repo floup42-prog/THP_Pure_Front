@@ -1,6 +1,6 @@
 ## Hi i am README.md
 
-source github : ("https://github.com/floup42-prog/THP_Pure_Front")
+source github : ( https://floup42-prog.github.io/THP_Pure_Front/")
 
 # THP_Pure_Front
 
